@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "satellites-guard",
-      "source": ".",
+      "source": "./.claude-plugin",
       "description": "Enforces mandatory Satellites context acquisition before code mutations. Blocks Write/Edit/Bash tool calls until satellites_acquire_context has been called.",
       "version": "1.0.0",
       "category": "development",
