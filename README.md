@@ -8,7 +8,7 @@ Add the marketplace and install the plugin:
 
 ```bash
 claude plugin marketplace add github:bobmcallan/satellites-plugin
-claude plugin install satellites-guard
+claude plugin install satellites-plugin
 ```
 
 ## Uninstall
@@ -16,7 +16,7 @@ claude plugin install satellites-guard
 Remove the plugin and marketplace source:
 
 ```bash
-claude plugin uninstall satellites-guard
+claude plugin uninstall satellites-plugin
 claude plugin marketplace remove github:bobmcallan/satellites-plugin
 ```
 
