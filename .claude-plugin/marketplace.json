@@ -1,0 +1,17 @@
+{
+  "name": "satellites-plugin",
+  "description": "Satellites plugins for Claude Code — manifest enforcement and developer-in-the-loop workflow tools",
+  "owner": {
+    "name": "Bob McAllan"
+  },
+  "plugins": [
+    {
+      "name": "satellites-guard",
+      "source": ".",
+      "description": "Enforces mandatory Satellites context acquisition before code mutations. Blocks Write/Edit/Bash tool calls until satellites_acquire_context has been called.",
+      "version": "1.0.0",
+      "category": "development",
+      "homepage": "https://github.com/bobmcallan/satellites-plugin"
+    }
+  ]
+}
