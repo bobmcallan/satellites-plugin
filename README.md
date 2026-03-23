@@ -11,6 +11,15 @@ claude plugin marketplace add github:bobmcallan/satellites-plugin
 claude plugin install satellites-guard
 ```
 
+## Uninstall
+
+Remove the plugin and marketplace source:
+
+```bash
+claude plugin uninstall satellites-guard
+claude plugin marketplace remove github:bobmcallan/satellites-plugin
+```
+
 ## Requirements
 
 - `SATELLITES_URL` environment variable set to your Satellites server URL (e.g. `https://satellites.example.com/mcp`)
